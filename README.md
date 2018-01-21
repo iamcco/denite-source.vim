@@ -8,7 +8,7 @@
 
 **actions:**
 
-* `tirgger` action to trigger target denite source
+* `trigger` action to trigger target denite source
 * `args` action to trigger denite source with args
 
 > default action is `trigger`    
