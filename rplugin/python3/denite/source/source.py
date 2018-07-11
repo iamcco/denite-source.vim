@@ -18,7 +18,7 @@ class Source(Base):
         self.kind = Kind(vim)
 
     def gather_candidates(self, context):
-        sources = self.vim.call('source#get_source_list')
+        sources = self.vim.call('denite#helper#_get_available_sources')
         candidata = []
         for source in sources:
             candidata.append({
